@@ -9,6 +9,8 @@ git push origin <branch_name>       #  e.g. git push origin master
 # get updates from cloud (remote) to local
 git pull origin <branch_name>       # e.g. git pull origin master
 
+# show current state of the repo
+git status
 
 # create a new branch, e.g. git checkout -b New_Feature
 git checkout -b <new_branch_name>           
