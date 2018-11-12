@@ -1,0 +1,18 @@
+git init                            # inits git on current directory, creates a hidden .git folder
+
+git add .                           # add all things to tracked/"staged" by git
+git commit -m "commit message"      # commit changes 
+
+# push commited updates from local to cloud(remote)
+git push origin <branch_name>       #  e.g. git push origin master
+
+# get updates from cloud (remote) to local
+git pull origin <branch_name>       # e.g. git pull origin master
+
+
+# create a new branch, e.g. git checkout -b New_Feature
+git checkout -b <new_branch_name>           
+
+git branch                          # show current branch
+
+git clone <git repo url>            # get a online repo into local
