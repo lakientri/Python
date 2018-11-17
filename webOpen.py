@@ -1,4 +1,6 @@
-# this is testing
+
+#### ATTENTION: In order to run with Chrome, need to download the drive. It is available at: http://chromedriver.chromium.org/downloads
+
 #import webbrowser
 #wb=webbrowser.open("www.google.com")
 
