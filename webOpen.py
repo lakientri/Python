@@ -33,6 +33,7 @@ job_title = browser.find_element_by_class_name("jobsearch-JobInfoHeader-title").
 apply= browser.find_element_by_class_name("jobsearch-IndeedApplyButton")
 apply.click()
 
+#===========iFrame=========================================
 #time.sleep(15)
 #print("test", browser.find_element_by_class_name("indeed-apply-bd"))
 # netmail
@@ -51,6 +52,7 @@ print("frame0 ",browser.switch_to_frame(iframe[0]))
 src= browser.find_element_by_tag_name("iframe").get_attribute("src")
 getSrc= browser.get(src)
 browser.find_element_by_class_name("ia-BrowserDefaultFilePicker-control").click()
+#=========================================================
 
 print("No of frames present in the web page are: ", len(iframe))
 
